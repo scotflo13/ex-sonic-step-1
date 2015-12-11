@@ -1,0 +1,22 @@
+
+
+@keyframes play {
+  from {background-position: 0 0;}
+  to {background-position: -585px 0;}
+}
+.bg-cont {
+  position: relative;
+  background-image: url("../../img/step1/bg.png");
+}
+.sonic {
+  z-index: 1000;
+  height: 70px;
+  width: 65px;
+  position: absolute;
+  bottom: 19%;
+  left:50% ;
+  background-image: url("../../img/step1/sonic-run-xs.png");
+  animation: play .5s steps(9) infinite;
+}
+
+/*************************A Supprimer Fin*********************/
